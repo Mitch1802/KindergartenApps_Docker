@@ -1,0 +1,18 @@
+services:
+    api: &api
+        build:
+            context: .
+            dockerfile: ./docker/django/Dockerfile
+        image: mitch122/${DOCKER_REPO}:api-${VERSION}
+
+    postgres:
+        build:
+            context: .
+            dockerfile: ./docker/postgres/Dockerfile
+        image: mitch122/${DOCKER_REPO}:db-${VERSION}
+
+    nginx:
+        build:
+            context: .
+            dockerfile: ./docker/nginx/Dockerfile
+        image: mitch122/${DOCKER_REPO}:nginx-${VERSION}

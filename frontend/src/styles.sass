@@ -1,0 +1,192 @@
+/* You can add global styles to this file, and also import other style files */
+@use './theme' as theme
+@use './assets/css/bootstrap-grid.css'
+@use './assets/css/icon.css'
+
+
+:root
+    font-family: "Roboto", sans-serif
+
+html, body
+    background-color: theme.$app-background
+    height: 100vh
+    display: flex
+    flex-direction: column
+    margin: 0px !important
+    padding: 0px !important
+
+mat-toolbar
+    height: 50px
+    display: flex
+    flex-wrap: wrap
+    background-color: theme.$app-primary !important
+
+    .spacer 
+        flex: 1 1 auto 
+
+    .title 
+        font-size: 20px
+        font-weight: 600
+        color: white
+    
+    mat-icon
+        color: white !important
+
+h1
+    text-align: center !important
+
+button, a, .link-card, .link-card *
+    cursor: pointer !important  
+
+p
+    cursor: default !important
+
+.mat-form-field-disabled, 
+.mat-form-field-disabled input, 
+.mat-form-field-disabled textarea, 
+.mat-form-field-disabled mat-label,
+.mat-mdc-button-disabled,
+.mat-mdc-button-disabled span,
+div:has(> .mat-mdc-button-disabled)
+    cursor: not-allowed !important
+
+.breadcrumb
+    display: flex
+    flex-wrap: wrap
+    padding: 5px
+
+    button 
+        margin-right: 5px
+        padding: 7px !important
+        min-width: 0px !important
+
+.error-top
+    color: white
+    background-color: red
+    text-align: center
+    padding: 10px
+    font-size: 1.2rem
+
+mat-card
+    padding: 10px
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
+
+.mat-mdc-card-title
+    font-size: 2rem !important
+    font-weight: 700 !important
+    padding-bottom: 20px
+
+.mat-mdc-card-subtitle
+    font-size: 1.2rem !important
+    font-weight: 400 !important
+    padding: 16px
+
+@media (min-width: 1200px) 
+    .content 
+        padding-top: 5vh   
+
+.content
+    margin: 5px
+
+.content-item
+    padding: 5px
+    
+    img
+        display: flex
+        justify-content: center
+        align-self: center
+
+.mehrzeiliger-text
+    content: "\A"
+    white-space: pre-wrap
+
+.mat-list-link span
+    text-decoration: underline
+    color: theme.$app-primary !important
+    cursor: pointer !important  
+
+.mat-tree-link span
+    text-decoration: underline
+    color: theme.$app-primary !important
+    cursor: pointer !important 
+
+mat-list
+    padding-top: 0px !important
+    padding-bottom: 0px !important
+
+mat-list-item
+    height: auto !important
+    padding-left: 0px !important
+    padding-right: 0px !important
+    padding-top: 5px !important
+
+mat-list-item span span
+    display: flex
+    align-items: center
+    margin: 0px !important
+    
+    mat-icon
+        padding-right: 5px !important
+    
+    p
+        width: 100%
+        text-align: left !important
+        white-space: nowrap
+        text-overflow: ellipsis
+        overflow: hidden
+        margin-block: 0px
+
+mat-form-field
+    width: 100%
+
+mat-select
+    margin: 0px
+    padding: 0px
+
+.msg-snackbar-success
+    --mdc-snackbar-supporting-text-size: 1.2rem
+    --mdc-snackbar-container-color: #{theme.$app-success}
+    --mdc-snackbar-supporting-text-color: white
+    --mat-snack-bar-button-color: white
+    white-space: pre-line !important
+    word-wrap: break-word !important
+    opacity: 0.8 !important
+
+.msg-snackbar-info
+    --mdc-snackbar-supporting-text-size: 1.2rem
+    --mdc-snackbar-container-color: #{theme.$app-warning}
+    --mdc-snackbar-supporting-text-color: black
+    --mat-snack-bar-button-color: black
+    white-space: pre-line !important
+    word-wrap: break-word !important
+    opacity: 0.8 !important
+
+.msg-snackbar-error
+    --mdc-snackbar-supporting-text-size: 1.2rem
+    --mdc-snackbar-container-color: #{theme.$app-error}
+    --mdc-snackbar-supporting-text-color: white
+    --mat-snack-bar-button-color: white
+    white-space: pre-line !important
+    word-wrap: break-word !important
+    opacity: 0.8 !important
+
+.footer
+    color: grey
+    text-align: center
+    padding-top: 10px
+    white-space: pre-wrap
+
+     
+.a-tel, .a-mailto
+    color: black
+    text-decoration: none
+    
+.border
+    border: solid 1px black !important
+
+@media (max-width: 575px)
+    .auswahl-button
+        padding-top: 20px
+
+.auswahl-button
+    white-space: nowrap       

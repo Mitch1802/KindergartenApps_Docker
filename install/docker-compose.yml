@@ -1,0 +1,55 @@
+services:
+    api:
+        command: /start
+        restart: always
+        image: mitch122/kindergartenapps:api-${VERSION}
+        container_name: ${NAME}_api
+        expose:
+            - "9999"
+        volumes:
+            - media_volume:/app/mediafiles
+            - backup_volume:/app/backups
+        env_file:
+            - ./.envs/.django
+            - ./.envs/.postgres
+        depends_on:
+            - postgres
+        networks:
+            - kindergartenapps_nw
+
+    postgres:
+        image: mitch122/kindergartenapps:db-${VERSION}
+        container_name: ${NAME}_db
+        restart: always
+        volumes:
+            - postgres_volume:/var/lib/postgresql/data
+        env_file:
+            - ./.envs/.postgres
+        networks:
+            - kindergartenapps_nw
+
+    nginx:
+        image: mitch122/kindergartenapps:nginx-${VERSION}
+        container_name: ${NAME}_nginx
+        restart: always
+        environment:
+            SERVER_NAME: ${DOMAIN}
+            API_URL: http://${NAME}_api
+        ports:
+            - '${HOST_PORT}:80'
+        depends_on:
+            - api
+        networks:
+            - kindergartenapps_nw
+
+networks:
+    kindergartenapps_nw:
+        external: true
+
+volumes:
+    media_volume: 
+          name: "${NAME}_media"
+    backup_volume: 
+          name: "${NAME}_backup"
+    postgres_volume: 
+          name: "${NAME}_postgres"
