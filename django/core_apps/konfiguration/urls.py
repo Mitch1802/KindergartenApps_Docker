@@ -1,11 +1,10 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import KonfigurationViewSet
+from .views import BackupRollenGetView
 
 
-router = DefaultRouter()
-router.register(r"", KonfigurationViewSet, basename="konfiguration")
+from .views import BackupRollenGetView
 
 urlpatterns = [
-    path("", include(router.urls)),
+    path("", BackupRollenGetView.as_view(), name="backup-rollen-list"),
 ]

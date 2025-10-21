@@ -20,12 +20,13 @@ import { MatIconModule } from '@angular/material/icon';
 export class StartComponent implements OnInit {
   private globalDataService = inject(GlobalDataService);
 
+  username: string = '';   
   breadcrumb: any = [];
   visibleItems:any = [
     {
       "icon": "dashboard",
       "modul": "Lotusplan",
-      "rolle": "ADMIN, MITGLIED",
+      "rolle": "ADMIN, LOTUSPLAN",
       "routerlink": "/lotusplan"
     },
     {
@@ -40,14 +41,13 @@ export class StartComponent implements OnInit {
       "rolle": "ADMIN",
       "routerlink": "/konfiguration"
     }
-  ];
-  username = '';   
+  ]; 
 
   ngOnInit(): void {
     sessionStorage.setItem('PageNumber', '1');
     sessionStorage.setItem('Page1', 'Start');
     sessionStorage.setItem('Page2', '');
-
+    this.username = sessionStorage.getItem('Benutzername') || 'Gast';
     this.breadcrumb = this.globalDataService.ladeBreadcrumb();
   }
 }

@@ -50,45 +50,6 @@
     <mat-card class="mt-3">
       <mat-card-header>
         <mat-card-title>{{ title2 }}</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <form [formGroup]="formKonfig" (ngSubmit)="konfigSpeichern()">
-          <input hidden type="text" class="form-control" formControlName="id" />
-          <button
-            mat-raised-button
-            class="mt-3"
-            color="accent"
-            [disabled]="!formKonfig.valid"
-            type="submit"
-            >
-            Konfiguration speichern
-          </button>
-          <section class="row mt-3 mt-2">
-            <div class="col-12 col-lg-6 mb-3">
-              <mat-form-field hintLabel="* Pflichtfeld">
-                <mat-label>PLZ</mat-label>
-                <input matInput type="text" formControlName="plz" />
-                @if (formKonfig.controls['plz'].hasError('required')) {
-                  <mat-error> PLZ ist erforderlich! </mat-error>
-                }
-              </mat-form-field>
-            </div>
-            <div class="col-12 col-lg-6 mb-3">
-              <mat-form-field hintLabel="* Pflichtfeld">
-                <mat-label>Ort</mat-label>
-                <input matInput type="text" formControlName="ort" />
-                @if (formKonfig.controls['ort'].hasError('required')) {
-                  <mat-error> Ort ist erforderlich! </mat-error>
-                }
-              </mat-form-field>
-            </div>
-          </section>
-        </form>
-      </mat-card-content>
-    </mat-card>
-    <mat-card class="mt-3">
-      <mat-card-header>
-        <mat-card-title>{{ title3 }}</mat-card-title>
         <mat-card-subtitle class="row">
           <div class="col-12 d-flex align-items-center mb-3">
             <mat-icon>warning</mat-icon> Nach jedem Wiederherstellen wird man

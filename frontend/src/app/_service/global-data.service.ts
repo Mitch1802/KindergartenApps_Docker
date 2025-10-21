@@ -17,7 +17,7 @@ export class GlobalDataService {
   private router = inject(Router);
   private _snackBar = inject(MatSnackBar);
 
-  Titel = 'Blaulicht Cloud';
+  Titel = 'Kindergarten Apps';
   Demo = false;
   Author = "Ing. M. Reichenauer";
   AppUrl: string = environment.apiUrl;
@@ -346,27 +346,9 @@ export class GlobalDataService {
     if (page.toLowerCase() == 'start') {
       link = '/start';
       kuerzel = 'Start';
-    } else if (page == 'FMD') {
-      link = '/fmd';
-      kuerzel = 'FMD';
-    } else if (page == 'ATM') {
-      link = '/atemschutz';
-      kuerzel = 'Atemschutz';
-    } else if (page == 'NEWS') {
-      link = '/news';
-      kuerzel = 'News';
-    } else if (page == 'FEST') {
-      link = '/fest';
-      kuerzel = 'Fest';
-    } else if (page == 'VER') {
-      link = '/verwaltung';
-      kuerzel = 'Verwaltung';
-    } else if (page == 'V_M') {
-      link = '/mitglied';
-      kuerzel = 'Mitglieder';
-    } else if (page == 'V_MK') {
-      link = '/modul_konfiguration';
-      kuerzel = 'Modul Konfiguration';
+    } else if (page == 'LTP') {
+      link = '/lotusplan';
+      kuerzel = 'LTP';
     } else if (page == 'V_B') {
       link = '/benutzer';
       kuerzel = 'Benutzer';
