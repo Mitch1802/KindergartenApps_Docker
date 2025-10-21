@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   version: "dev",
-  apiUrl: "https://kinergarten-apps.at/api/v1/"
+  apiUrl: "https://kindergarten-apps.at/api/v1/"
 };
 
 /*
