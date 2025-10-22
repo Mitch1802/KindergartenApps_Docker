@@ -5,7 +5,7 @@ import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideCharts, withDefaultRegisterables } from 'ng2-charts';
 import { AppComponent } from './app/app.component';
 import { routes } from './app/app.routes';
-
+import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
 
 class NoReuseStrategy implements RouteReuseStrategy {
   shouldDetach(route: ActivatedRouteSnapshot): boolean { return false; }
@@ -15,13 +15,13 @@ class NoReuseStrategy implements RouteReuseStrategy {
   shouldReuseRoute(future: ActivatedRouteSnapshot, curr: ActivatedRouteSnapshot): boolean { return false; }
 }
 
-
 bootstrapApplication(AppComponent, {
   providers: [
     provideRouter(routes, withRouterConfig({ onSameUrlNavigation: 'reload' })),
     provideHttpClient(),
     provideAnimations(),
     provideCharts(withDefaultRegisterables()),
-    { provide: RouteReuseStrategy, useClass: NoReuseStrategy }
+    { provide: RouteReuseStrategy, useClass: NoReuseStrategy },
+    { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { subscriptSizing: 'dynamic' } }
   ]
 }).catch(err => console.error(err));
