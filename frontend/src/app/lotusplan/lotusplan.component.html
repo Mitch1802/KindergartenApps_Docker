@@ -1,1 +1,66 @@
-<p>lotusplan works!</p>
+<app-header [breadcrumb]="breadcrumb"></app-header>
+
+<div class="row justify-content-center content">
+  <div class="col-12 col-md-10 col-lg-8 p-0 m-0">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ title }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <mat-form-field>
+                  <mat-label>Thema</mat-label>
+                  <input matInput type="text" formControlName="thema" />
+                </mat-form-field>
+            </div>
+            <div class="col-md-12 col-lg-4 mb-3">
+                <mat-form-field>
+                  <mat-label>Monat</mat-label>
+                  <input matInput type="text" formControlName="monat" />
+                </mat-form-field>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <mat-form-field>
+                  <mat-label>Erstellt am</mat-label>
+                  <input matInput type="date" formControlName="erstellt" />
+                </mat-form-field>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <mat-form-field>
+                <mat-label>Maximal auswählbar</mat-label>
+                <mat-select  formControlName="max" onchange="maxAendern()">
+                  <mat-option value="1">1</mat-option>
+                  <mat-option value="2">2</mat-option>
+                  <mat-option value="3">3</mat-option>
+                  <mat-option value="4">4</mat-option>
+                  <mat-option value="5">5</mat-option>
+                  <mat-option value="6">6</mat-option>
+                  <mat-option value="7">7</mat-option>
+                  <mat-option value="8">8</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+        </div>
+        
+        <h4 for="accordionBildungsbereich" class="form-label">Lernzielauswahl</h4>
+        <div class="accordion accordion-flush" id="accordionBildungsbereich"></div>
+        <div class="row mt-3 justify-content-evenly">
+            <button mat-raised-button class="col-5" color="primary" type="button" onclick="saveKonfig()">Konfiguration speichern</button>
+            <div class="col-5 px-0">
+                <div class="custom-file">
+                    <label for="inpFileKonfig" class="col-12 btn btn-secondary">Konfiguration laden</label>
+                    <input type="file" class="custom-file-input btn btn-secondary" onchange="loadKonfig()" accept=".json" id="inpFileKonfig">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 justify-content-evenly">
+          <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" onclick="ausdruckMappeErstellen(0)">A4 Anzeigen</button>
+          <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" onclick="ausdruckMappeErstellen(1)">A4 Download</button>
+          <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" onclick="ausdruckAushangErstellen(0)">A3 Anzeigen</button>
+          <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" onclick="ausdruckAushangErstellen(1)">A3 Download</button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

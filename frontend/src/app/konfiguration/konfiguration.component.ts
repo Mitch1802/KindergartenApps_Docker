@@ -42,7 +42,7 @@ export class KonfigurationComponent implements OnInit {
 
   ngOnInit(): void {
     sessionStorage.setItem("PageNumber", "2");
-    sessionStorage.setItem("Page2", "LTP");
+    sessionStorage.setItem("Page2", "V_KO");
     this.breadcrumb = this.globalDataService.ladeBreadcrumb();
     this.formRolle.disable();
 

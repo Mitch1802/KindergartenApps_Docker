@@ -348,7 +348,7 @@ export class GlobalDataService {
       kuerzel = 'Start';
     } else if (page == 'LTP') {
       link = '/lotusplan';
-      kuerzel = 'LTP';
+      kuerzel = 'Lotusplan';
     } else if (page == 'V_B') {
       link = '/benutzer';
       kuerzel = 'Benutzer';
