@@ -38,7 +38,7 @@ export class LotusplanComponent implements OnInit {
     // this.globalDataService.get(this.modul).subscribe({
     //   next: (erg: any) => {
     //     try {
-
+    //       this.convertDataForAccordion(false);
     //     } catch (e: any) {
     //       this.globalDataService.erstelleMessage("error", e);
     //     }
@@ -49,13 +49,31 @@ export class LotusplanComponent implements OnInit {
     // });
   }
 
-  maxAendern(): void  {}
+  convertDataForAccordion(loaded: boolean): void {}
 
-  saveKonfig(): void  {}
+  zeichneAccordionItems(data: any, bildungsbereich: any, x: any, loaded: boolean): void {}
 
-  loadKonfig(): void  {}
+  zeichneAuswahl(data: any, x: any, loaded: boolean): void {}
 
-  ausdruckMappeErstellen(download: number): void  {}
+  maxAendern(): void  {
+    this.convertDataForAccordion(false);
+  }
 
-  ausdruckAushangErstellen(download: number): void  {}
+  changeAuswahlCount(cbId: any): void {}
+
+  saveKonfig(): void  {
+    // TODO JSON Daten speichern in DB
+  }
+
+  loadKonfig(): void  {
+    // TODO JSON Daten laden aus DB
+  }
+
+  preparePdfDaten(): void {}
+
+  prepareAusdruck(paperSize: string, tableConfig: any): void {}
+
+  ausdruckMappeErstellen(download: boolean): void  {}
+
+  ausdruckAushangErstellen(download: boolean): void  {}
 }
