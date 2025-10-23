@@ -7,54 +7,87 @@
         <mat-card-title>{{ title }}</mat-card-title>
       </mat-card-header>
       <mat-card-content>
-        <div class="row">
-            <div class="col-md-12 mb-3">
-                <mat-form-field>
-                  <mat-label>Thema</mat-label>
-                  <input matInput type="text" formControlName="thema" />
-                </mat-form-field>
-            </div>
-            <div class="col-md-12 col-lg-4 mb-3">
-                <mat-form-field>
-                  <mat-label>Monat</mat-label>
-                  <input matInput type="text" formControlName="monat" />
-                </mat-form-field>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-3">
-                <mat-form-field>
-                  <mat-label>Erstellt am</mat-label>
-                  <input matInput type="date" formControlName="erstellt" />
-                </mat-form-field>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-3">
+        <form [formGroup]="form"> 
+          <div class="row">
+              <div class="col-md-12 mb-3">
+                  <mat-form-field>
+                    <mat-label>Thema</mat-label>
+                    <input matInput type="text" formControlName="thema" />
+                  </mat-form-field>
+              </div>
+              <div class="col-md-12 col-lg-4 mb-3">
+                  <mat-form-field>
+                    <mat-label>Monat</mat-label>
+                    <input matInput type="text" formControlName="monat" />
+                  </mat-form-field>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
+                  <mat-form-field>
+                    <mat-label>Erstellt am</mat-label>
+                    <input matInput type="date" formControlName="erstellt" />
+                  </mat-form-field>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-3">
               <mat-form-field>
                 <mat-label>Maximal auswählbar</mat-label>
-                <mat-select  formControlName="max" onchange="maxAendern()">
-                  <mat-option value="1">1</mat-option>
-                  <mat-option value="2">2</mat-option>
-                  <mat-option value="3">3</mat-option>
-                  <mat-option value="4">4</mat-option>
-                  <mat-option value="5">5</mat-option>
-                  <mat-option value="6">6</mat-option>
-                  <mat-option value="7">7</mat-option>
-                  <mat-option value="8">8</mat-option>
+                <mat-select formControlName="max">
+                  @for (n of [1,2,3,4,5,6,7,8]; track n) {
+                    <mat-option [value]="n">{{ n }}</mat-option>
+                  }
                 </mat-select>
               </mat-form-field>
-            </div>
-        </div>
+              </div>
+          </div>
 
-        <h4 for="accordionBildungsbereich" class="form-label">Lernzielauswahl</h4>
-        <div class="accordion accordion-flush" id="accordionBildungsbereich"></div>
-        <div class="row mt-3 justify-content-evenly">
-            <button mat-raised-button class="col-5" color="primary" type="button" onclick="saveKonfig()">Konfiguration speichern</button>
-            <button mat-raised-button class="col-5" color="primary" type="button" onclick="loadKonfig()">Konfiguration laden</button>
-        </div>
-        <div class="row mt-3 justify-content-evenly">
-          <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" onclick="ausdruckMappeErstellen(0)">A4 Anzeigen</button>
-          <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" onclick="ausdruckMappeErstellen(1)">A4 Download</button>
-          <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" onclick="ausdruckAushangErstellen(0)">A3 Anzeigen</button>
-          <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" onclick="ausdruckAushangErstellen(1)">A3 Download</button>
-        </div>
+          <mat-accordion multi>
+            @for (bereich of bereichKeys(); track bereich) {
+              <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                  <mat-panel-title class="d-flex justify-content-between">
+                    <div class="">
+                      {{ bereich }}
+                    </div>
+                    <div class="">
+                      {{ countInBereich(bereich) }}/{{ form.get('max')?.value }}
+                    </div>
+                  </mat-panel-title>
+                </mat-expansion-panel-header>
+
+
+                <mat-accordion multi>
+                  @for (stufe of stufeKeys(bereich); track stufe) {
+                    <mat-expansion-panel>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>{{ stufe }}</mat-panel-title>
+                      </mat-expansion-panel-header>
+
+                      <div class="ziel-list">
+                        @for (item of grouped()[bereich][stufe]; track item.Lernziel) {
+                          <mat-checkbox
+                            [checked]="isSelected(item)"
+                            (change)="toggle(item, $event)">
+                            {{ item.Lernziel }}
+                          </mat-checkbox>
+                        }
+                      </div>
+                    </mat-expansion-panel>
+                  }
+                </mat-accordion>
+              </mat-expansion-panel>
+            }
+          </mat-accordion>
+
+          <!-- <div class="row mt-3 justify-content-evenly">
+              <button mat-raised-button class="col-5" color="primary" type="button" >Konfiguration speichern</button>
+              <button mat-raised-button class="col-5" color="primary" type="button" >Konfiguration laden</button>
+          </div> -->
+          <div class="row mt-3 justify-content-evenly">
+            <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" (click)="ausdruckMappeErstellen(false)">A4 Anzeigen</button>
+            <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" (click)="ausdruckMappeErstellen(true)">A4 Download</button>
+            <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" (click)="ausdruckAushangErstellen(false)">A3 Anzeigen</button>
+            <button mat-raised-button class="col-md-5 col-lg-2 " color="accent" type="button" (click)="ausdruckAushangErstellen(true)">A3 Download</button>
+          </div>
+        </form>   
       </mat-card-content>
     </mat-card>
   </div>

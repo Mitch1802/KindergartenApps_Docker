@@ -1,0 +1,1617 @@
+export const LOTUSPLAN_MOCK: any[] = [
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann brabbeln"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann zu Lautäußerungen angeregt werden"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann Laute und Mimik nachahmen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann Bezeichnungen von Alltagsgegenständen verstehen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby interessiert sich für Medien"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind wendet Einwortäußerungen an"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann Einwortsätze sprechen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann einfache Aufforderungen verstehen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind hat mehr als 50 Wörter erworben und lernt nun sehr viel schneller"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann in Zweiwortsätzen sprechen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann erste Fragen stellen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind interessiert sich für Medien"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind hat ein gutes Sprachverständnis"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann erste komplette Sätze bilden, Fehler dürfen noch passieren"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann erste Präpositionen richtig nutzen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann Fragesätze richtig aufbauen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind verwendet bejahende und verneinende Sätze"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind interessiert sich für Reime, Verse und Fingerspiele"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind zeigt zunehmendes Interesse an Medien"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind spricht von sich in der 1. Person"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Sprachverständnis des Kindes ist differenzierter"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Präpositionen verstehen und kann Artikel verwenden"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann W-Fragen stellen und verwendet das Fragewort an erster Stelle"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Laute bewusst artikulieren"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Medien nutzen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind verwendet Mehrwortsätze. Das Verb steht an 2. Stelle"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind zeigt Interesse an Schrift"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann Erlebtes weitgehend in richitger logischer und zeitlicher Reihenfolge erzählen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann Haupt- und Nebensätze verwenden"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann dem Gesagten kritisch gegenüber stehen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann aus einem reichhaltigen Wortschatz an Zeitwörtern (Verben) schöpfen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann die Mehrzahl zu den Hauptwörtern bilden"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das kann lokale Präpositionen verstehen wie: auf, unter, vor, links, rechts, drinnen, draußen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind verwendet das gebeugte Hilfszeitwort an 2. Stelle und das Partizip Perfekt an letzter Stelle"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann den richtigen Artikel vor dem Hauptwort verwenden"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann kompetent mit Medien umgehen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann Erlebtes in ganz richtiger zeitlicher Reihenfolge erzählen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann Unterbegriffe benennen und den Oberbegriffen zuordnen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann W-Fragen sinngemäß richtig beantworten"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind verwendet das Verb bei Entscheidungsfragen an erster Stelle"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann sein Wissen im Umgang mit Medien weitergeben - es ist medienkompetent"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann seine Sprache den sozialen Gegebenheiten und der jeweiligen Situation adäquat anpassen"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann alle Laute unterscheiden (An- In- und Auslaut)"
+  },
+  {
+    "Bildungsbereich": "Sprache, Kommunikation und Medien",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann seinen Namen schreiben"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby reagiert auf seine Umgebung und sucht Kontakt"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby ahmt Mimik entsprechend nach"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann die Aufmerksamkeit gemeinsam mit der Bezugsperson auf etwas Drittes richten"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann zu den betreuenden Personen Vertrauen aufbauen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby lässt sich auf erste Spiele ein"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann sich nach einer Eingewöhnungsphase von seinen primären Bezugspersonen lösen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind ist in der Lage, vorgelebte Handlungen von Erwachsenen nachzuahmen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind seine Person im Spiegel erkennen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind differenziert seine Ausdrucksmöglichkeiten im sozialen Kontakt"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind experimentiert mit Auswirkungen seiner Handlungen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind strebt nach zunehmender Autonomie"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann sich nach einer Eingewöhnungsphase von seinen primären Bezugspersonen lösen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann sein ICH-Bewusstsein sprachlich ausdrücken"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind beginnt erste Freundschaften zu knüpfen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann sich in kleine soziale Gruppen integrieren"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind lebt Autonomie und lotet seinen Handlungsspielraum aus"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann in bestimmten Bereichen Sorge für sich selbst tragen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind spielt Rollenspiele"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann sich nach einer Eingewöhnungsphase von seinen primären Bezugspersonen lösen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann die Bedürfnisse anderer erkennen und zeigt selbstloses Verhalten"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind entwickelt eine soziale Haltung Mitmenschen gegenüber und lernt sich einzuordnen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind erweitert seine sozialen und emotialen Kompetenzen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Erfahrungen aus dem eigenen Lebensumfeld nachspielen und vertiefen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann sich als Mädchen oder Bub wahrnehmen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann sich nach einer Eingewöhnungsphase von seinen primären Bezugspersonen lösen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann sich in bereits bestehende Sozialformen einfügen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind ist in der Lage mit fremden Personen Kontakt aufzunehmen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann seine Emotionen und die von anderen unterscheiden und zuordnen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind weiß, dass es Unterschiede gibt"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann sich in Konfliktsituationen verbal wehren, aber auch Hilfe holen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann sich Ziele setzen und diese aus eigener Motivation erreichen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann sich nach einer Eingewöhnungsphase von seinen primären Bezugspersonen lösen"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann Regeln als verbindlich akzeptieren"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann im Spiel mit Gewinnen und Verlieren umgehen und entwickelt eine gewisse Frustrationstoleranz"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind ist in der Lage in der Gruppe mitzubestimmen und mitzugestalten (Fähigkeit zur Partizipaton)"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind weiß über unsere Werte und Kinderrechte Bescheid"
+  },
+  {
+    "Bildungsbereich": "Soziales und Gesellschaft",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind entwickelt ein soziales Gewissen und ein Verständnis für friedliches Zusammenleben (Friedenserziehung)"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby lernt seinen eigenen Körper kennen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby exploriert Gegenstände aus der nahen Umwelt"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby exploriert Dinge aus der weiteren Umwelt"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby entwickelt ein basales Bewusstsein für alltägliche Abläufe und beginnt zu kooperieren"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann seine Umwelt durch zunehmenden Aktionsradius erobern"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind entdeckt seinen Körper und kennt seine Körperteile"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind signalisiert/verbalisiert Durst, Hunger und Sättigungsgefühl"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann selbstständig einfache Kleidungsstücke ausziehen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind zeigt Interesse an der Toilette und an Ausscheidungen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann Temperaturunterschiede erkennen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind erlangt größere Selbstständigkeit"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind imitiert Erwachsenentätigkeiten"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind versteht die Funktion und Bezeichnung verschiedener Räume"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann Wettererscheinungen erkennen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind erlangt Verständnis für Hygiene"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind hat Verständnis für die Geschlechterzugehörigkeit"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind experimentiert mit Gefahrenquellen aus seiner direkten Umgebung"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind ist an besonderen Dingen aus der Umwelt interessiert und möchte sie besitzen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann sein körperliches Befinden verbalisieren"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann sich zunehmend selbst versorgen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind untersucht gezielt seine Umgebung und geht Zusammenhängen nach"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind übernimmt einfache Aufgaben und Verantwortung"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kennt die Körperteile und deren Funktionen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind übernimmt erste Verantwortung zur eigenen Körperpflege"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind weiß, wo seine persönlichen Dinge aufbewahrt werden"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind hat Vorlieben bzw. Abneigungen für bestimmte Kleidungsstücke"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind beginnt seine körperliche Integrität zu schützen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann selbstständig auf die Toilette gehen (Unterstützung ist teilweise erforderlich)"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind wird sich seiner Geschlechteridentität bewusst und beginnt sich für Geschlechterunterschiede zu interessieren"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann sich in der näheren Umgebung des Kindergartens orientieren"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann Zusammenhänge zwischen äußeren Einflüssen und körperlichen Wirkungen verstehen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind hat Grundverständnis für gesunde Ernährung"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind hat Wissen über Natur und Umwelt"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind erkennt Piktogramme/Schriftbilder und nutzt sie zur Orientierung"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind hat ein ausgeprägtes Selbstbild"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind versteht es, durch Kulturtechniken Kontakt zur Umwelt aufzunehmen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind hat Verständnis für zeitliche Abläufe und Kreisläufe der Umwelt"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind hat ein Umweltbewusstsein und -wissen entwickelt"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind hat ein Grundwissen über gesunde Lebensführung"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind entwickelt ein Gefühl für Privatsphäre (für sich und andere)"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann durch seine Eigenkompetenz den kindlichen Alltag autonom bewältigen und ist in der Lage jüngere Kinder zu unterstützen"
+  },
+  {
+    "Bildungsbereich": "Körper, Umwelt und Gesundheit",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind hat Verständnis für Gefahren und Abläufe im Verkehr"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann mit Entspannung auf Rhythmus reagieren"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann einfache Zuordnungen machen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann erste Unterscheidungen vornehmen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann die Veränderung von Lagen erkennen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby versteht, dass versteckte Sachen nicht verschwunden sind  (Objektpermanenz)"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann Rhythmen im Tagesablauf erkennen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann seinen Körper als erste Maßeinheit verwenden (Körperschema)"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann durch seine Bewegung Erfahrungen in der Raumorientierung machen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann gemeinsame Eigenschaften zusammenfassen (Kategorien bilden /Abstrahieren)"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann in Alltagssituationen bestimmte Abläufe einhalten (Serialität) und sich an Regeln halten"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann auf Rhythmus reagieren"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann in seinem individuellen Zahlenraum Mengen unterscheiden"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind beherrscht Techniken zu Aufteilen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind verwendet Zahlenvokabular ohne Anspruch auf Richtigkeit"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann einfache Aufträge in der richtigen Reihenfolge ausführen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann einfache Unterscheidungen von Extremen vornehmen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann Abläufe variieren"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Reihenfolgen bilden"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Positionen beschreiben"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind beherrscht Techniken zu Aufteilen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind verwendet Zahlenvokabular das außerhalb seines Verständnisses liegt"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann mit Geräten und Hilfsmitteln vergleichen und messen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann seine Fähigkeiten in Bezug auf Zuordnung differenzieren"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann achsensymmetrische Bilder legen, zeichnen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann geometrische Formen erkennen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann Präpositionen in Bezug auf Lagebeziehungen beschreiben"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind ordnet komplexere Reihenfolgen "
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann sich an der Zeit orientieren"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann zweidimensionale Muster legen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind ist in der Lage sein Interesse einen längeren Zeitraum auf eine bestimmte Sache zu fokussieren"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann kausale Zusammenhänge verstehen und erklären"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann zählen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann Objekte vergleichen, die sich durch mehrere Merkmale unetrscheiden"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann Beziehungsaspekte zw. Zahlen und Mengen herstellen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind beherrscht Simultanerfassung bis 6"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann verschiedene Strategien anwenden"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann mit verschiedenen Größen umgehen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann differnzierter mit den Zeitbegriff umgehen"
+  },
+  {
+    "Bildungsbereich": "Mathematik, Naturwissenschaften und Technik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann Symmetrieachsen erkennen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Kind kann saugen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann ab dem 3. Monat in Bauchlage den Kopf selbstständig heben"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Erstes Greifen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby beginnt ca. ab dem 5. Monat sich von der Rücken- auf die Bauchlage selbtändig zu drehen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann sich selbst fortbewegen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann mit etwa 10  Monaten frei sitzen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Die Bewegungen des Babys verfeinern sich, es kann etwas Kleines aufheben, in dem es Zeigefinger und Daumen zusammenfügt"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann sich mit Hilfe hochziehen und stehen (mit anhalten)"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann gehen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind erwirbt eine weitere Bewegungsrichtung"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind beherscht den Pinzettengriff"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann kritzeln"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann mit Festhalten selbst Stufen steigen (Nachstellschritt)"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind ist in der Lage vorgegebene Bewegungen nachzumachen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind beherscht zunehmend neue Bewegungsarten"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann eine Tasse halten, mit einem Löffel essen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann mit geschlossenem Mund kauen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann einen Zischenraum von 25 cm überwinden"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind Kind kann sicher mit beiden hochspringen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann kurz auf einem Bein stehen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann seine feinmotorischen Fertigkeiten handlungsspezifisch einsetzen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann hinunter springen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann einen Ball kicken"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Die Stiftführung wird sicherer"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann tägliche motorische Herausforderungen selbstständig bewältigen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann einen Ball werfen und fangen "
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann durch einen Strohhalm trinken und durch den Strohhalm blasen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann sein Gleichgewicht halten"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann mit differenzierten Konstruktionsmaterial bauen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann gezielt springen, die Distanz abwägen, die Kraft gezielt für die Sprungweite einsetzen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann balancieren"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann verschiedene Bewegunngsformen imitieren"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind beherscht den 4 Punktgriff"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann mit der Schere schneiden"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind wagt einfache Turnübungen durchzuführen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann seine Mundmotorik gezielt einsetzen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann schaukeln"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind lotet seine körperlichen Grenzen aus"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann mit Werkzeug umgehen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind folgt seinen individuellen Bewegungsimpulsen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann mit der Schere auf einer Linie schneiden"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind verfeinert seine Fang- und Wurftechnik"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind hat körperliche Ausdauer"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind differenziert seine feinmotorischen Fähigkeiten"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind verfeinert seine Auge- Handkoordination"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind beherscht den 3 Punktgriff"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann nach unterschiedlich vorgegebenen Linien schneiden"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann komplexe Bewegungsabläufe koordinieren"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann im Laufen abspringen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann Sportarten erlernen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann die Körpermitte kreuzen"
+  },
+  {
+    "Bildungsbereich": "Motorik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind beherrscht verschiedene Werktechniken"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann auf Musik mit unetrschiedlichen Verhalten reagieren"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby erkennt die Sprachmelodie der Mutter, kann sie von anderen unterscheiden"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann lallend musikalische Töne erzeugen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann aktiv, motorisch auf Melodien und Rhythmus reagieren"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby lässt sich durch unterschiedliche Melodien stimulieren, trösten und ablenken"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby kann akustische Reize zuordnen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann klatschend und stampfend Lieder begleiten"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann auf einfachen Musikinstrumenten Töne und Rhytmen erzeugen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann Töne, Melodien bis zu ersten Liedern nachsingen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann erste leichte Kindertänze, Kniereitlieder"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann musisch experimentieren"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann mit selbst gewählten Gegenständen Rhytmen erzeugen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann die musische Grundsprache rhytmisch umsetzen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann hohe und tiefe (helle und dunkle) Töne unterscheiden, Melodien erkennen und singen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann leichte Tänze umsetzen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann einfache Lieder vollständig und ohne Hilfe vor/mit der Gruppe singen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind hat sich ein kleines Repertoire an einfachen Kinderliedern angeeignet"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann mit unterschiedlichen Klangkörpern und Instrumenten experimentieren"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Lieder, Musikstücke und Klanggeschichten auf einfache Weise sicher rhytmisch begleiten"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Lieder, Musikstücke und Klanggeschichten auf einfache Weise in Bewegung umsetzen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Musik darstellerisch umsetzen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind differenziert musizieren und in der Gruppe musisch agieren"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Musik bildnerisch darstellen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann bewusst mit Text und Melodie experimentieren"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann musikalische Geschichten darstellerisch umsetzen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kennt Lieder in verschiedenen Sprachen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann verschiedene musische Sprachen unterscheiden"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind beginnt die Notensprache zu verstehen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind lernt neue musische Kontexte kennen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann verschiedene Medien nutzen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann erklären, wie bestimmte Musikstücke auf seine Gefühle wirken"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann gemeinsam im Einklang mit anderen Kindern (ohne Pädagogin) Lieder vollständig singen"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann komplexere Rhythmen nachspielen und erfinden"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann selbstständig musisch improvisieren"
+  },
+  {
+    "Bildungsbereich": "Musik",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann seine Konzentration auf die Abfolge eines Liedes richten"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby macht auf seine Bedürfnisse (Nahrung, körperliche Nähe, liebevolle Zuwendung, Getragen werden, Hygiene) aufmerksam"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby zeigt Interesse an der Umgebung"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby zeigt erste Konzentrationsfähigkeit"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby zeigt Vorlieben und Abneigung"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby steuert bewusst Handlungsabläufe"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 1",
+    "Lernziel": "Das Baby versteht einfache Fragen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind versteht, dass versteckte Sachen nicht verschwunden sind (Objektpermanenz)"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind reagiert bei körperlichen Empfindungen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann kleine Aufträge ausführen, (z.B. Gehörtes in die Tat umsetzen)"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann sich von der Bezugsperson abgrenzen und erlebt sich als Individuum"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann komplexe Handlungen durchführen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann Körpersprache und Mimik bewusst nachmachen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann räumliche Dimensionen erkennen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann emotionale kognitive, körperliche, sowie soziale und kummunikative Fähigkeiten kombinieren"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind erkennt Ursache und Wirkungen von Handlungen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann unterschiedliche Vibrationen, Druck, Schmerz und Temperaturen erkennen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind erkennt bedeutsame zeitliche Zusammenhänge"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann Unterschiedlichkeiten von Materialien feststellen und aufzeigen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind besitzt die Fähigkeit zu sortieren/generalisieren"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann auditive, taktil-kinästhetische Reize erkennen und benennen oder zeigen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind ist in der Lage Einzelheiten zu beobachten (anschauliches Denken)"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann sich gefühlsmäßig in einfache Geschichten hineinleben"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind ist in der Lage sich eine Fantasiegestalt zu kreieren (magisches Denken)"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann sich konzentrieren"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind verfügt über komplexe Gedächtnis- und Lernleistungen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann aufgrund von Erfahrungen und Erlebnissen Zusammenhänge erkennen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kannn Gehörtes erkennen und wiedergeben"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Gesehenes zuordnen, sich daran erinnern und Zusammenhänge erkennen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann die kognitiven und motorischen Fähigkeiten Abläufe und Reihenfolgen einzuhalten"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann Körperempfindungen bewusst wahrnehmen, beschreiben und danach handeln"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann im Alltagzielorientiert denken und handeln"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind hat ein Regelverständnis entwickelt und kann mit den emotionalen herausforderungen umgehen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann seine Hände, Beine als Erkundungswerkzeuge bewusst und gezielt einsetzen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann Unterschiedliches miteinander kombinieren"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind besitzt eine gewisse emotionale Stabilität, kognitive Strategien und Widerstandfähigkeit (Resilienz)"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann Gefahren im Alltag antizipieren"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind erkennt Körperschemen (Details)"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann problemstellungen gedanklich ordnen, erkennen und verbalisieren"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind Verantwortung übernehmen"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann Gefühle anderer wahnehmen und daruaf reagieren (Empathie)"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann seine Wahrnehmung differenzieren und klassifizieren"
+  },
+  {
+    "Bildungsbereich": "Wahrnehmung, Emotionen und Kognition",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind zeiht zunehmend konkretes Denken dem magischen Denken vor"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann gezielt Spuren hinterlassen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind entwickelt Verständnis für Bilder"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind stärkt seine Handmuskulatur"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann die Urformen zeichnen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind kann erste Bauwerke konstruieren und bauen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 2",
+    "Lernziel": "Das Kind beginnt mit erstem Rollenspiel"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann sicher mit altersgemäßen Werkzeug umgehen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind erwirbt Fertigkeiten und Kompetenzen im Umgang mit Materialien"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind führt gezieltes und fantasievolles Rollenspiel durch und verwendet dazu in kreativer Weise die verschiedensten Materialien"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind zeichnet erkennbare Figuren"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 3",
+    "Lernziel": "Das Kind kann einfache Bauwerke bauen und gestalten"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann zufällig entstandenen Werken nachträglich eine Bedeutung zuschreiben"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann verschiedene altersadäquate Techniken anwenden"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind macht Erfahrungen mit der Dimensionalität"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Erlebtes durch fantastische Spiele reproduzieren, Lösungen kreieren und damit aufarbeiten"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann Materialien gezielt eisetzen, um seinen Ideen Ausdruck zu verleihen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind Grundfarben erkennen und benennen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 4",
+    "Lernziel": "Das Kind kann einfache Gegenstände zeichnen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann aus verschiedenen Materialien ein Objekt gestalten und setzt dieses im Spiel ein"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann bewusst erkennenbare Gegenstände und Figruren zeichnen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann bewusst in eine Rolle schlüpfen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann gezielt ein Viereck zeichnen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kann seine Werke interpretieren und darüber erzählen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 5",
+    "Lernziel": "Das Kind kennt verschiedene Farbtöne und benennt sie"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann schräge Linien (Dreieck) zeichnen (Schreibvorbereitung)"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann neues Wissen kreativ umsetzen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann einen Menschen differenziert darstellen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann nach vorgegebenen Plänen, Modellen, Vorlagen arbeiten"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann mit textilen Materialien gestalten"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann komplexe Objekte bauen und setzt verschiedenste Materialien dazu ein"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind kann seine schauspielerischen Fähigkeiten im geführten Rollenspiel umsetzen"
+  },
+  {
+    "Bildungsbereich": "Fantasie, Kreativität und künstlerisches Gestalten",
+    "Stufe": "Stufe 6",
+    "Lernziel": "Das Kind macht komplexere Erfahrungen mit der Dreidimensionalität"
+  }
+]

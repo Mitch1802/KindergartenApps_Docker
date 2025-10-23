@@ -93,6 +93,11 @@ class CustomRegisterSerializer(RegisterSerializer):
         return user
 
 class UserDetailSerializer(serializers.ModelSerializer):
+    roles = serializers.SlugRelatedField(
+        many=True,
+        slug_field='key',
+        queryset=Role.objects.all()
+    )
 
     class Meta:
         model = User
