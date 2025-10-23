@@ -5,19 +5,26 @@
 </div>
 
 <div class="row justify-content-center content">
-  @for (item of visibleItems; track item) {
-    <div
-      class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card"
-      >
-      <mat-card [routerLink]="item.routerlink">
-        <mat-icon class="material-icons-outlined">{{ item.icon }}</mat-icon>
-        <mat-card-footer>{{ item.modul }}</mat-card-footer>
+  @if (rollen.includes('ADMIN') || rollen.includes('LOTUSPLAN')) {
+    <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
+      <mat-card routerLink="/lotusplan">
+        <mat-icon class="material-icons-outlined">dashboard</mat-icon>
+        <mat-card-footer>Lotusplan</mat-card-footer>
+      </mat-card>
+    </div>
+  }
+  @if (rollen.includes('ADMIN')) {
+    <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
+      <mat-card routerLink="/benutzer">
+        <mat-icon class="material-icons-outlined">supervisor_account</mat-icon>
+        <mat-card-footer>Benutzerverwaltung</mat-card-footer>
+      </mat-card>
+    </div>
+    <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
+      <mat-card routerLink="/konfiguration">
+        <mat-icon class="material-icons-outlined">settings</mat-icon>
+        <mat-card-footer>Konfiguration</mat-card-footer>
       </mat-card>
     </div>
   }
 </div>
-
-
-
-
-
