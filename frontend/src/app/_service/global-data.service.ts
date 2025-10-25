@@ -349,6 +349,21 @@ export class GlobalDataService {
     } else if (page == 'LTP') {
       link = '/lotusplan';
       kuerzel = 'Lotusplan';
+    } else if (page == 'REF') {
+      link = '/reflexion';
+      kuerzel = 'Reflexion';
+    } else if (page == 'WP') {
+      link = '/wochenplan';
+      kuerzel = 'Wochenplan';
+    } else if (page == 'ENG') {
+      link = '/entwicklungsgespraech';
+      kuerzel = 'Entwicklungsgespräch';
+    } else if (page == 'LG') {
+      link = '/lerngeschichte';
+      kuerzel = 'Lerngeschichte';
+    } else if (page == 'SET') {
+      link = '/setup';
+      kuerzel = 'Einstellungen';
     } else if (page == 'V_B') {
       link = '/benutzer';
       kuerzel = 'Benutzer';

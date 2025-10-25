@@ -13,15 +13,56 @@
       </mat-card>
     </div>
   }
+  @if (rollen.includes('ADMIN') || rollen.includes('REFLEXION')) {
+    <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
+      <mat-card routerLink="/reflexion">
+        <mat-icon class="material-icons-outlined">description</mat-icon>
+        <mat-card-footer>Reflexion</mat-card-footer>
+      </mat-card>
+    </div>
+  }
+  @if (rollen.includes('ADMIN') || rollen.includes('WOCHENPLAN')) {
+    <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
+      <mat-card routerLink="/wochenplan">
+        <mat-icon class="material-icons-outlined">event</mat-icon>
+        <mat-card-footer>Wochenplan</mat-card-footer>
+      </mat-card>
+    </div>
+  }
+  @if (rollen.includes('ADMIN') || rollen.includes('ENTWICKLUNGGESPRAECH')) {
+    <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
+      <mat-card routerLink="/entwicklungsgespraech">
+        <mat-icon class="material-icons-outlined">trending_up</mat-icon>
+        <mat-card-footer>Entwicklungsgespräch</mat-card-footer>
+      </mat-card>
+    </div>
+  }
+  <!-- Zur Zeit nicht notwendig, als letztes entwickeln -->
+  <!-- @if (rollen.includes('ADMIN') || rollen.includes('LERNGESCHICHTE')) {
+    <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
+      <mat-card routerLink="/lerngeschichte">
+        <mat-icon class="material-icons-outlined">history_edu</mat-icon>
+        <mat-card-footer>Lerngeschichte</mat-card-footer>
+      </mat-card>
+    </div>
+  } --> 
+  @if (rollen.includes('ADMIN') || rollen.includes('SETUP')) {
+    <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
+      <mat-card routerLink="/setup">
+        <mat-icon class="material-icons-outlined">settings</mat-icon>
+        <mat-card-footer>Einstellungen</mat-card-footer>
+      </mat-card>
+    </div>
+  }
   @if (rollen.includes('ADMIN')) {
     <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
-      <mat-card routerLink="/benutzer">
+      <mat-card routerLink="/benutzer" class="bg-admin">
         <mat-icon class="material-icons-outlined">supervisor_account</mat-icon>
         <mat-card-footer>Benutzerverwaltung</mat-card-footer>
       </mat-card>
     </div>
     <div class="col-6 col-md-4 col-lg-4 col-xl-2 content-item link-card">
-      <mat-card routerLink="/konfiguration">
+      <mat-card routerLink="/konfiguration" class="bg-admin">
         <mat-icon class="material-icons-outlined">settings</mat-icon>
         <mat-card-footer>Konfiguration</mat-card-footer>
       </mat-card>
